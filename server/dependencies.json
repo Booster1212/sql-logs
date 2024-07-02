@@ -1,5 +1,6 @@
 {
     "dependencies": {
-        "booster-sql": "latest"
+        "booster-sql": "latest",
+        "mysql": "latest"
     }
 }

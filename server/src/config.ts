@@ -17,3 +17,7 @@ export const SQL_Definitions = {
         action VARCHAR(255)
     `,
 };
+
+export const TABLES = {
+    player: 'logs_player',
+};

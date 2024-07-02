@@ -1,10 +1,7 @@
 import { useApi } from '@Server/api/index.js';
-import { logSQL } from './general.js';
 
 function useLoggingAPI() {
-    return {
-        logSQL,
-    };
+    return {};
 }
 
 declare global {
