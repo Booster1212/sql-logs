@@ -6,7 +6,7 @@ import { dbConfig } from './config.js';
 
 const Rebar = useRebar();
 
-export async function logSQL(player: alt.Player, action: string): Promise<void> {
+export async function sqlLog(player: alt.Player, action: string): Promise<void> {
     try {
         const accountData = Rebar.document.account.useAccount(player).get();
         const rPlayer = Rebar.document.character.useCharacter(player).get();
